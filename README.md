@@ -1,24 +1,4 @@
-# housesale
+Why the exact f are you reading this?
+I did not design this. Just coded it.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can find and download the original design [here](https://dribbble.com/shots/14276214-Real-Estate-Investment-landing-page)
