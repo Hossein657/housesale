@@ -7,15 +7,19 @@
       <Searchform/>
     </div>
   </header>
+
+  <Cards/>
 </template>
 
 <script>
   import Searchform from '../components/Searchform.vue'
+  import Cards from '../components/Cards.vue'
 
 export default {
   name: "Home",
   components: {
     Searchform,
+    Cards,
   },
 };
 </script>
@@ -42,7 +46,7 @@ export default {
     font-weight: bold;
   }
 
-  p{
+  .content p{
     color: #fff;
     font-size:29px
   }
