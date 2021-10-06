@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header mb">
     <div class="content">
       <h2>Quality home services,<br> on demand</h2>
       <p class="mb">Experienced, hand-picked Professionals to serve you at your doorstep</p>
@@ -8,18 +8,24 @@
     </div>
   </header>
 
-  <Cards/>
+  <div class="container">
+    <Cards/>
+    <!-- <whyus/> -->
+
+  </div>
 </template>
 
 <script>
   import Searchform from '../components/Searchform.vue'
   import Cards from '../components/Cards.vue'
+  import Whyus from '../components/Whyus.vue'
 
 export default {
   name: "Home",
   components: {
     Searchform,
     Cards,
+    Whyus,
   },
 };
 </script>
@@ -44,6 +50,7 @@ export default {
     color: #fff;
     font-size: 70px;
     font-weight: bold;
+    margin-bottom: 20px;
   }
 
   .content p{

@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="wrapper">
     <form @submit.prevent="formSubmit">
         <select name="type" id="type" v-model="type" required>
             <option value="buy">ON SALE</option>
@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style>
-    .container {
+    .wrapper {
         background-color: #fff;
         padding: 20px 50px;
 
