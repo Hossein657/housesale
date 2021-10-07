@@ -1,12 +1,13 @@
 <template>
-    <footer>
+    <footer v-if="$route.name !== 'NotFound'">
         <div class="container">
             <ul>
-                <li><router-link to="/OnSale">On sale</router-link></li>
-                <li><router-link to="/ForRent">For rent</router-link></li>
+                <li><router-link to="/">On sale</router-link></li>
+                <li><router-link to="/">For rent</router-link></li>
                 <li><router-link to="/About">About us</router-link></li>
-                <li><router-link to="/News">Property news</router-link></li>
+                <li><router-link to="/">Property news</router-link></li>
             </ul>
+            
             
             <ul>
                 <li class="logo"><router-link to="/"><img src="../assets/logo.png" alt=""></router-link></li>
@@ -20,7 +21,9 @@
 
 <script>
 export default {
-    name: "Navbar"
+    name: "Navbar",
+    
+    
 }
 </script>
 

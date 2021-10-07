@@ -25,39 +25,34 @@ export default {
   color: #2c3e50;
   
 }
-
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-  .container{
-    width: 80%;
-    margin: 0 auto;
-  }
-
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 ul{
   list-style: none;
 }
-
- h2{
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  h3{
-    font-size: 36px;
-  }
-  h4{
-    font-size: 29px;
-    color: #4A4A4A;
-  }
-  a{
-    color: inherit;
-    text-decoration: none;
-  }
+h2{
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3{
+  font-size: 36px;
+}
+h4{
+  font-size: 29px;
+  color: #4A4A4A;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
 </style>
 

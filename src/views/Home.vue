@@ -5,13 +5,13 @@
       <p class="mb">Experienced, hand-picked Professionals to serve you at your doorstep</p>
 
       <Searchform/>
+
     </div>
   </header>
 
   <div class="container">
     <Cards/>
     <whyus/>
-
   </div>
 </template>
 
@@ -27,35 +27,36 @@ export default {
     Cards,
     Whyus,
   },
+  
 };
 </script>
 
 
 <style scoped>
 
-    .container > *,
-    header{
-      margin-bottom: 70px;
-    }
-  .header .content {
-    position: absolute;
-    top: 20%; left: 10%;
-  }
+.container > *,
+header{
+    margin-bottom: 70px;
+}
+.header .content {
+  position: absolute;
+  top: 20%; left: 10%;
+}
 
-  .header{
-    height: 90vh;
-    background-image: url('../assets/headpic.png');
-    background-size: cover;
-    position: relative;
-    /* z-index: -1; */
-  }
+.header{
+  height: 90vh;
+  background-image: url('../assets/headpic.png');
+  background-size: cover;
+  position: relative;
+  /* z-index: -1; */
+}
 
-  .content p{
-    color: #fff;
-    font-size:29px
-  }
-  .mb{
-    margin-bottom: 80px;
-  }
+.content p{
+  color: #fff;
+  font-size:29px
+}
+.mb{
+  margin-bottom: 80px;
+}
 
 </style>
