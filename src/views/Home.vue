@@ -57,8 +57,5 @@ export default {
   .mb{
     margin-bottom: 80px;
   }
-  .container{
-    width: 80%;
-    margin: 0 auto;
-  }
+
 </style>
