@@ -16,7 +16,7 @@
         </select>
 
         <select name="bath" id="bath" v-model="bath" required>
-            <option value="" disabled selected  hidden>Bathrooms</option>
+            <option value="" disabled selected hidden>Bathrooms</option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .wrapper {
         background-color: #fff;
         padding: 20px 50px;

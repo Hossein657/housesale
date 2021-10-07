@@ -1,5 +1,5 @@
 <template>
-  <header class="header mb">
+  <header class="header">
     <div class="content">
       <h2>Quality home services,<br> on demand</h2>
       <p class="mb">Experienced, hand-picked Professionals to serve you at your doorstep</p>
@@ -10,7 +10,7 @@
 
   <div class="container">
     <Cards/>
-    <!-- <whyus/> -->
+    <whyus/>
 
   </div>
 </template>
@@ -33,6 +33,10 @@ export default {
 
 <style scoped>
 
+    .container > *,
+    header{
+      margin-bottom: 70px;
+    }
   .header .content {
     position: absolute;
     top: 20%; left: 10%;
@@ -46,18 +50,15 @@ export default {
     /* z-index: -1; */
   }
 
-  h2{
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
   .content p{
     color: #fff;
     font-size:29px
   }
   .mb{
     margin-bottom: 80px;
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="card_container mb">
+  <div class="card_container">
       <div class="card" v-for="content in contents" :key="content.id">
           <img :src="content.img" :alt="content.title">
           <div class="bottom">
@@ -29,8 +29,7 @@ export default {
 <style>
     .card_container{
         display: flex;
-        width: 80%;
-        margin: 0 auto;
+        
         justify-content: space-between;
     }
     .bottom{
@@ -46,6 +45,12 @@ export default {
         margin: 0 10px;
         transition: all .3s;
         filter: drop-shadow( 1px 4px 4px rgba(0, 0, 0, 0.1));
+    }
+    .card{
+        transition: all .3s;
+    }
+    .card:hover{
+        transform: scale(1.01) translateY(-5px);
     }
     .card:hover .bottom{
         box-shadow: 0px 4px 59px -14px rgba(171, 124, 0, 1);
