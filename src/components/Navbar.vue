@@ -18,45 +18,44 @@ export default {
 </script>
 
 <style scoped>
-  h1{
-    display:none;
-  }
-  .nav{
-    background-color: rgba(2, 55, 135, 0.8);
-    width: 100%;
-    position: fixed;
-    z-index: 9;
-  }
-  .nav ul{
-    
-    list-style: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width:90%;
-    margin: 0 auto;
-  }
-  .nav li{
-    margin-left: 20px;
-  }
-  a{
-    text-decoration: none;
-    color: white;
-    padding:5px 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
-    
-  }
-  .logo a{
-    border: none !important;
-  }
-  a:hover{
-    border-bottom: 1px solid rgba(255, 255, 255,1);
-    transition: all .2s;
-  }
-  .logo{
-    margin-right: 20%;
-    margin-right: auto;
-  }
+h1{
+  display:none;
+}
+.nav{
+  background-color: rgba(2, 55, 135, 0.8);
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+.nav ul{
   
+  list-style: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width:90%;
+  margin: 0 auto;
+}
+.nav li{
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  padding:5px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  
+}
+.logo a{
+  border: none !important;
+}
+a:hover{
+  border-bottom: 1px solid rgba(255, 255, 255,1);
+  transition: all .2s;
+}
+.logo{
+  margin-right: 20%;
+  margin-right: auto;
+}
 </style>
