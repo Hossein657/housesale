@@ -1,8 +1,8 @@
 <template>
-  <div class="shit">
+  <div class="nf">
       <h3>
-        This page does not exist bro. <br>
-        Go fuck yourself
+        This page does not exist. <br>
+        
       </h3>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style>
-.shit {
+.nf {
     position: relative;
     top: 20vh;
     left: 20vh;
